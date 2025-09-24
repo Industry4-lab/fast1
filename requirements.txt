@@ -1,6 +1,7 @@
 fastapi
 uvicorn
-jinja2
-scikit-learn
-pandas
 numpy
+scikit-learn==1.7.1   # or 1.7.2, but match your model
+joblib
+jinja2
+python-multipart
